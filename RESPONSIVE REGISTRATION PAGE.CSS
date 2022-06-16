@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("desktop-bg.png") no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+
+.container {
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+    -moz-box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+    -webkit-box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+.side {
+    color: white;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+/*div.wrapper {
+    float: left; 
+    margin-left: 300px;  
+}
+
+.side, .wrapper {
+    display: inline;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.text {
+    font-size: 19px;
+}*/
+fieldset {
+    width: 500px;
+    height: 430px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+    -moz-box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+    -webkit-box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+    border: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 400px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    padding-top: 30px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px hsl(154, 59%, 51%);
+    -moz-box-shadow: 2px 2px hsl(154, 59%, 51%);
+    -webkit-box-shadow: 2px 2px hsl(154, 59%, 51%);
+    cursor: pointer;
+}
+
+::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+span.services {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.terms {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    padding-left: 60px;
+}
+
+p.text {
+    line-height: 1.5rem;
+}
+
+
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url("mobile-bg.png") no-repeat;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+    }
+
+    div.content {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .wrapper {
+        margin: 0;
+        margin-left: 30px;
+    }
+    
+    .side {
+        color: white;
+        margin: 0;
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .text {
+        line-height: 1.5rem;
+        font-size: 19px;
+        font-family: 'Franklin Gothic';
+        text-align: center;
+    }
+
+    .container {
+        background-color: hsl(248, 32%, 49%);
+        box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+        -moz-box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+        -webkit-box-shadow: 0.5px 5px 6px hsl(249, 10%, 26%);
+        height: 80px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+    fieldset {
+        width: 300px;
+        height: 420px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+        -moz-box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+        -webkit-box-shadow: 0px 5px 6px hsl(249, 10%, 26%);
+        border: none;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 230px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        margin-bottom: 20px;
+    }
+    
+    .p1 {
+        padding-top: 30px;
+    }
+    
+    input[type="submit"] {
+        border: none;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        width: 230px;
+        height: 50px;
+        border-radius: 5px;
+       
+        box-shadow: 2px 2px hsl(154, 59%, 51%);
+        -moz-box-shadow: 2px 2px hsl(154, 59%, 51%);
+        -webkit-box-shadow: 2px 2px hsl(154, 59%, 51%);
+        cursor: pointer;
+    }
+    
+    ::placeholder {
+        padding-left: 20px;
+        font-size: 16px;
+        font-family: 'Franklin Gothic';
+    }
+    
+    span.services {
+        color: hsl(0, 100%, 74%);
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    .terms {
+        font-size: 12px;
+        font-weight: 600;
+        color: gray;
+        padding-left: 20px;
+    }
+
+    .later::after {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .amount::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    p.upper {
+        line-height: 1rem;
+    }
+
+    .to::after {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .our::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    p.terms {
+        line-height: 0.7rem;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    p.text {
+        line-height: 1.5rem;
+    }
+}
